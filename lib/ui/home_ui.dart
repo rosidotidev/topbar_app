@@ -57,7 +57,7 @@ class HomeUI extends StatelessWidget {
               Text(
                 '${ctrl.currValue.value}',
                 style: TextStyle(
-                  color: Theme.of(context).primaryColorLight,
+                  color: Theme.of(context).primaryColor,
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 5.0,
