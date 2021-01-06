@@ -7,7 +7,7 @@ import 'package:topbar_app/widget/icon_menu_item.dart';
 import 'package:get/get.dart';
 
 class SettingsListUI extends StatelessWidget {
-  ThemeController ctrl = Get.put(ThemeController());
+  ThemeController ctrl = Get.find();
 
   @override
   Widget build(BuildContext context) {
