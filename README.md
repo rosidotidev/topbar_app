@@ -1,4 +1,4 @@
-# topbar_app
+# Topbar app Template
 Flutter template app based on GetX with Login, Theme management, i18n and local persistence
 
 #### Supported features:
@@ -12,7 +12,8 @@ Flutter template app based on GetX with Login, Theme management, i18n and local 
 #### Getting Started:
 
 1. Clone the repo from https://github.com/rosidotidev/topbar_app.git
-4. run ```flutter run ```
+2. run ```flutter run ```
+3. Remember: first time login with admin/admin
 
 #### Screenshots:
 
