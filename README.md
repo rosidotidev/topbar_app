@@ -1,5 +1,5 @@
 # Topbar app Template
-Flutter template app based on GetX with Login, Theme management, i18n and local persistence
+Flutter template app based on GetX with Login, Theme management, i18n and local persistence. <br>
 If you want to try it download apk at this link https://github.com/rosidotidev/topbar_app/blob/main/file/topbar-1_0.apk
 
 #### Supported features:
