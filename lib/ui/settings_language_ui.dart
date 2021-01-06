@@ -4,7 +4,7 @@ import 'package:topbar_app/widget/rimage_menu_item.dart';
 import 'package:get/get.dart';
 
 class SettingsLanguageUI extends StatelessWidget {
-  LangController ctrl = Get.put(LangController());
+  LangController ctrl = Get.find();
 
   @override
   Widget build(BuildContext context) {

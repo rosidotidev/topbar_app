@@ -10,7 +10,7 @@ class EditAccountForm extends StatelessWidget {
     Key key,
   }) : super(key: key);
 
-  AccountController ctrl = Get.put(AccountController());
+  AccountController ctrl = Get.find();
 
   @override
   Widget build(BuildContext context) {
