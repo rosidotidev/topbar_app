@@ -7,7 +7,7 @@ import 'home_ui.dart';
 // ignore: must_be_immutable
 class LoginScreen extends StatelessWidget {
   HomeUI homeUI;
-  final LoginController ctrl = Get.put(LoginController());
+  final LoginController ctrl = Get.find();
 
   LoginScreen({Key key}) : super(key: key);
 
