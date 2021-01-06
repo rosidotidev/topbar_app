@@ -47,7 +47,7 @@ class SettingsLanguageUI extends StatelessWidget {
           }),
           Obx(() {
             Color bc = Colors.grey[200];
-            if (ctrl.loacelVal.value == 'en_US') {
+            if (ctrl.loacelVal.value == 'en_UK') {
               bc = Theme.of(context).primaryColorDark;
             }
             return RImageMenuItem(
