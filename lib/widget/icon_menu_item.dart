@@ -12,10 +12,6 @@ class IconMenuItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-        //radius: 45.0,
-        //highlightColor: Theme.of(context).primaryColorLight,
-        //focusColor: Theme.of(context).primaryColorLight,
-        //splashColor: Theme.of(context).primaryColorLight,
         onTap: onTap,
         child: Container(
           //color: Colors.white,
