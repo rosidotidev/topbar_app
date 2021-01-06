@@ -16,9 +16,9 @@ Flutter template app based on GetX with Login, Theme management, i18n and local 
 
 #### Screenshots:
 
-<img src="imges/img1.png" width="300" height="550"> <img src="imges/img2.png" width="300" height="550"><br>
-<img src="imges/img3.png" width="300" height="550"> <img src="imges/img4.png" width="300" height="550"><br>
-<img src="imges/img5.png" width="300" height="550"> <br>
+<img src="images/img1.png" width="300" height="550"> <img src="images/img2.png" width="300" height="550"><br>
+<img src="imgaes/img3.png" width="300" height="550"> <img src="images/img4.png" width="300" height="550"><br>
+<img src="imgaes/img5.png" width="300" height="550"> <br>
 
 #### Credits:
 
