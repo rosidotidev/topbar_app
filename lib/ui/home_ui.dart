@@ -47,14 +47,14 @@ class HomeUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildHeaderX(context),
-      body: Obx(() {
-        return Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              Text(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Obx(() {
+              return Text(
                 '${ctrl.currValue.value}',
                 style: TextStyle(
                   color: Theme.of(context).primaryColor,
@@ -62,11 +62,11 @@ class HomeUI extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   letterSpacing: 5.0,
                 ),
-              ),
-            ],
-          ),
-        );
-      }),
+              );
+            }),
+          ],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           ctrl.inc();
